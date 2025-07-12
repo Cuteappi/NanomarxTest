@@ -27,6 +27,10 @@ export default function CommentList({ postId, comments: propComments }: { postId
         return <CommentLoadingSkeleton />;
     }
 
+    if (fetchedComments.length === 0) {
+        return <p className="text-center text-[#a0a0a0]">Be the first to comment.</p>;
+    }
+
     const commentTree = buildCommentTree(fetchedComments);
 
     return (

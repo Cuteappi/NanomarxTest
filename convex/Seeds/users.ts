@@ -1,3 +1,3 @@
-import data from '../../Data/lib/users.json';
+import data from '../Data/users.json';
 
 export const users = data;

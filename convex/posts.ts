@@ -108,6 +108,38 @@ export const getByTag = query({
 	},
 });
 
+export const getPostsByCategory = query({
+	args: { category: v.string() },
+	handler: async (ctx, args) => {
+		// Find all tags in the given category
+		const tags = await ctx.db
+			.query("tags")
+			.withIndex("by_category", (q) => q.eq("category", args.category))
+			.collect();
+
+		const tagIds = new Set(tags.map(tag => tag._id));
+
+		if (tagIds.size === 0) {
+			return [];
+		}
+
+		// Fetch all post-tag relationships and filter them
+		const allPostTags = await ctx.db.query("postTags").collect();
+		const relevantPostTags = allPostTags.filter(pt => tagIds.has(pt.tagId));
+
+		// Get unique post IDs
+		const postIds = [...new Set(relevantPostTags.map(pt => pt.postId))];
+
+		// Fetch the post documents
+		const posts = (await Promise.all(
+			postIds.map(postId => ctx.db.get(postId))
+		)).filter(Boolean) as Doc<"posts">[];
+
+		// Add author and tag details to the posts
+		return await addAuthorAndTagsToPosts(ctx, posts);
+	},
+});
+
 export const upvote = mutation({
 	args: { postId: v.id("posts"), type: v.union(v.literal("add"), v.literal("remove")) },
 	handler: async (ctx, args) => {

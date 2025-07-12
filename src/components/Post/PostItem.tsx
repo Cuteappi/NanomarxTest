@@ -5,7 +5,7 @@ import UpvoteButton from "../Buttons/UpvoteButton";
 import { useConvexAuth, useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { useRouter } from "next/navigation";
-import PostLinks from "./PostLinks";
+import PostDetailLinks from "./PostDetailLinks";
 
 
 // Define a type that includes the author information
@@ -28,7 +28,7 @@ export default function PostItem({ post }: { post: PostWithAuthor; }) {
 	return (
 		<li className="flex py-1 gap-0.5">
 			<UpvoteButton upvotes={post.upvotes} handleUpvote={handleUpvote} isActive={post.isUpvotedByUser} />
-			<div className="flex gap-0.5 flex-col">
+			<div className="flex flex-col">
 				<div className="flex items-center flex-wrap gap-2 " >
 					<a href={post.url} target="_blank" rel="noopener noreferrer" className="text-lg font-bold" style={{ color: 'var(--link-blue)' }}>
 						{post.title}
@@ -42,7 +42,7 @@ export default function PostItem({ post }: { post: PostWithAuthor; }) {
 						{post.domain}
 					</a>
 				</div>
-				<PostLinks post={post} />
+				<PostDetailLinks post={post} />
 			</div>
 		</li>
 	);

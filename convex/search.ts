@@ -25,9 +25,12 @@ export const search = query({
             return Promise.all(
                 posts.map(async (post: Doc<"posts">) => {
                     const user = await ctx.db.get(post.userId);
+                    const postTags = await ctx.db.query("postTags").withIndex("by_postId", (q) => q.eq("postId", post._id)).collect();
+                    const tags = await Promise.all(postTags.map(async (pt) => ctx.db.get(pt.tagId)));
                     return {
                         ...post,
                         author: user?.name ?? "Anonymous",
+                        tags: tags.filter(Boolean).map(tag => ({ _id: tag!._id, name: tag!.name }))
                     };
                 })
             );

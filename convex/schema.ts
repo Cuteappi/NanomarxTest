@@ -35,7 +35,8 @@ export default defineSchema({
 		postCount: v.number(),
 		category: v.string(),
 	})
-		.index("by_name", ["name"]),
+		.index("by_name", ["name"])
+		.index("by_category", ["category"]),
 
 	comments: defineTable({
 		userId: v.id("users"),

@@ -5,9 +5,9 @@ import Link from "next/link";
 
 
 
-export default function PostLinks({ post }: { post: PostWithAuthor; }) {
+export default function PostDetailLinks({ post }: { post: PostWithAuthor; }) {
     return (
-        <div className="flex items-center text-sm gap-1.5" style={{ color: 'var(--text-primary)' }}>
+        <div className="flex items-center text-sm gap-1" style={{ color: 'var(--text-primary)' }}>
             <Avatar author={post.author} />
             <span>via <span className="hover:underline cursor-pointer">{post.author}</span></span>
             <span>{timeSince(post.submittedTime)}</span>
