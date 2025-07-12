@@ -1,0 +1,325 @@
+[
+    {
+        "title": "Phrase origin: Why do we “call” functions?",
+        "url": "https://quuxplusone.github.io/blog/2025/04/04/etymology-of-call/",
+        "domain": "quuxplusone.github.io",
+        "author": "abhin4v",
+        "upvotes": 62,
+        "commentCount": 14,
+        "tags": [
+            "historical",
+            "plt"
+        ],
+        "submittedTime": "2025-07-08 21:55:35-0500"
+    },
+    {
+        "title": "Kubernetes is not just for Black Friday",
+        "url": "https://ergaster.org/posts/2025/07/09-kubernetes-black-friday/",
+        "domain": "ergaster.org",
+        "author": "shurup",
+        "upvotes": 20,
+        "commentCount": 16,
+        "tags": [
+            "devops"
+        ],
+        "submittedTime": "2025-07-10 00:43:43-0500"
+    },
+    {
+        "title": "systemd has been a complete, utter, unmitigated success",
+        "url": "https://blog.tjll.net/the-systemd-revolution-has-been-a-success/",
+        "domain": "blog.tjll.net",
+        "author": "nogweii",
+        "upvotes": 234,
+        "commentCount": 131,
+        "tags": [
+            "linux",
+            "systemd"
+        ],
+        "submittedTime": "2025-07-08 16:14:37-0500"
+    },
+    {
+        "title": "Vim Fugitive in action (2021)",
+        "url": "https://dzx.fr/blog/introduction-to-vim-fugitive/",
+        "domain": "dzx.fr",
+        "author": "gnyeki",
+        "upvotes": 16,
+        "commentCount": 5,
+        "tags": [
+            "vcs",
+            "vim"
+        ],
+        "submittedTime": "2025-07-09 14:28:11-0500"
+    },
+    {
+        "title": "Is the doc bot docs, or not?",
+        "url": "https://www.robinsloan.com/lab/what-are-we-even-doing-here/",
+        "domain": "robinsloan.com",
+        "author": "carlana",
+        "upvotes": 11,
+        "commentCount": 9,
+        "tags": [
+            "vibecoding"
+        ],
+        "submittedTime": "2025-07-09 10:08:29-0500"
+    },
+    {
+        "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+        "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+        "domain": "metr.org",
+        "author": "Johz",
+        "upvotes": 8,
+        "commentCount": 4,
+        "tags": [
+            "vibecoding"
+        ],
+        "submittedTime": "2025-07-10 12:24:35-0500"
+    },
+    {
+        "title": "Monitoring my Homelab, Simply",
+        "url": "https://b.tuxes.uk/simple-homelab-monitoring.html",
+        "domain": "b.tuxes.uk",
+        "author": "tuxes",
+        "upvotes": 29,
+        "commentCount": 9,
+        "tags": [
+            "distributed",
+            "go",
+            "networking"
+        ],
+        "submittedTime": "2025-07-10 06:26:12-0500"
+    },
+    {
+        "title": "Closures for Hare",
+        "url": "https://lists.sr.ht/~sircmpwn/hare-rfc/%3CDB54BK1QFAMO.VURD1415NHT3@ddevault.org%3E",
+        "domain": "lists.sr.ht",
+        "author": "runxiyu",
+        "upvotes": 15,
+        "commentCount": 3,
+        "tags": [
+            "plt"
+        ],
+        "submittedTime": "2025-07-09 21:09:46-0500"
+    },
+    {
+        "title": "Vibe Coding Casino: Rise of programming by slot machine",
+        "url": "https://evrim.zone/blog/opinion/vibes_casino",
+        "domain": "evrim.zone",
+        "author": "evrimzone",
+        "upvotes": 6,
+        "commentCount": 3,
+        "tags": [
+            "rant",
+            "vibecoding"
+        ],
+        "submittedTime": "2025-07-10 12:02:20-0500"
+    },
+    {
+        "title": "A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux",
+        "url": "https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html",
+        "domain": "muppetlabs.com",
+        "author": "abhin4v",
+        "upvotes": 6,
+        "commentCount": 2,
+        "tags": [
+            "assembly",
+            "linux"
+        ],
+        "submittedTime": "2025-07-09 22:58:14-0500"
+    },
+    {
+        "title": "The Tree Borrows paper is finally published",
+        "url": "https://www.ralfj.de/blog/2025/07/07/tree-borrows-paper.html",
+        "domain": "ralfj.de",
+        "author": "soareschen",
+        "upvotes": 69,
+        "commentCount": 5,
+        "tags": [
+            "formalmethods",
+            "plt",
+            "rust"
+        ],
+        "submittedTime": "2025-07-09 03:20:49-0500"
+    },
+    {
+        "title": "What's //go:nosplit for?",
+        "url": "https://mcyoung.xyz/2025/07/07/nosplit/",
+        "domain": "mcyoung.xyz",
+        "author": "giffengrabber",
+        "upvotes": 13,
+        "commentCount": 1,
+        "tags": [
+            "go"
+        ],
+        "submittedTime": "2025-07-10 09:36:01-0500"
+    },
+    {
+        "title": "CoverDrop: Blowing the Whistle Through A News App",
+        "url": "https://www.coverdrop.org/",
+        "domain": "coverdrop.org",
+        "author": "jmiven",
+        "upvotes": 3,
+        "commentCount": 1,
+        "tags": [
+            "cryptography",
+            "privacy",
+            "security"
+        ],
+        "submittedTime": "2025-07-10 10:46:42-0500"
+    },
+    {
+        "title": "(Quite) A Few Words About Async",
+        "url": "https://yoric.github.io/post/quite-a-few-words-about-async/",
+        "domain": "yoric.github.io",
+        "author": "rrampage",
+        "upvotes": 19,
+        "commentCount": 15,
+        "tags": [
+            "distributed",
+            "programming"
+        ],
+        "submittedTime": "2025-07-09 11:53:10-0500"
+    },
+    {
+        "title": "Multi-player Durable Stream Playground",
+        "url": "https://s2.dev/playground",
+        "domain": "s2.dev",
+        "author": "shikhar",
+        "upvotes": 7,
+        "commentCount": 2,
+        "tags": [
+            "databases",
+            "distributed"
+        ],
+        "submittedTime": "2025-07-10 09:32:23-0500"
+    },
+    {
+        "title": "VibeTunnel - access terminal from the browser to command agents",
+        "url": "https://github.com/amantus-ai/vibetunnel",
+        "domain": "github.com/amantus-ai",
+        "author": "amorfati",
+        "upvotes": 5,
+        "commentCount": 4,
+        "tags": [
+            "release",
+            "vibecoding"
+        ],
+        "submittedTime": "2025-06-30 14:20:44-0500"
+    },
+    {
+        "title": "Stop putting nix setup in your checked-in .envrc files",
+        "url": "https://offby1.website/posts/stop-putting-nix-setup-in-your-checked-in-envrc-files.html",
+        "domain": "offby1.website",
+        "author": "offby1",
+        "upvotes": 31,
+        "commentCount": 86,
+        "tags": [
+            "nix",
+            "practices"
+        ],
+        "submittedTime": "2025-07-07 13:28:04-0500"
+    },
+    {
+        "title": "Hare by Example",
+        "url": "https://harebyexample.org/",
+        "domain": "harebyexample.org",
+        "author": "blainsmith",
+        "upvotes": 52,
+        "commentCount": 31,
+        "tags": [
+            "programming"
+        ],
+        "submittedTime": "2025-07-09 14:40:06-0500"
+    },
+    {
+        "title": "Computer Scientists Figure Out How To Prove Lies",
+        "url": "https://www.quantamagazine.org/computer-scientists-figure-out-how-to-prove-lies-20250709/",
+        "domain": "quantamagazine.org",
+        "author": "lorddimwit",
+        "upvotes": 5,
+        "commentCount": 1,
+        "tags": [
+            "cryptography"
+        ],
+        "submittedTime": "2025-07-10 07:57:49-0500"
+    },
+    {
+        "title": "Jai Demo and Design Explanation",
+        "url": "https://www.youtube.com/watch?v=IdpD5QIVOKQ",
+        "domain": "youtube.com",
+        "author": "damantisshrimp",
+        "upvotes": 5,
+        "commentCount": 1,
+        "tags": [
+            "video",
+            "plt"
+        ],
+        "submittedTime": "2025-07-10 10:10:59-0500"
+    },
+    {
+        "title": "Using fs_usage to see what files a process is using",
+        "url": "https://til.simonwillison.net/macos/fs-usage",
+        "domain": "til.simonwillison.net",
+        "author": "zmitchell",
+        "upvotes": 15,
+        "commentCount": 12,
+        "tags": [
+            "mac"
+        ],
+        "submittedTime": "2025-07-09 19:31:42-0500"
+    },
+    {
+        "title": "IBM Power11 hits the market this month",
+        "url": "https://www.talospace.com/2025/07/power11-hits-market-this-month.html",
+        "domain": "talospace.com",
+        "author": "raymii",
+        "upvotes": 24,
+        "commentCount": 16,
+        "tags": [
+            "hardware"
+        ],
+        "submittedTime": "2025-07-08 14:06:11-0500"
+    },
+    {
+        "title": "C3 0.7.3 - Small improvements",
+        "url": "https://c3-lang.org/blog/c3-0-7-3-small-improvements/",
+        "domain": "c3-lang.org",
+        "author": "clerno",
+        "upvotes": 6,
+        "commentCount": 7,
+        "tags": [
+            "c",
+            "compilers",
+            "programming"
+        ],
+        "submittedTime": "2025-07-08 16:32:13-0500"
+    },
+    {
+        "title": "MicroHs, a tiny Haskell Compiler",
+        "url": "https://www.youtube.com/watch?v=SJwvPEq4Mok",
+        "domain": "youtube.com",
+        "author": "pom",
+        "upvotes": 20,
+        "commentCount": 5,
+        "tags": [
+            "video",
+            "compilers",
+            "haskell"
+        ],
+        "submittedTime": "2025-07-09 17:55:52-0500"
+    },
+    {
+        "title": "Oregon Programming Languages Summer School (OPLSS) 2025: Types, Logic, and Formal Methods",
+        "url": "https://www.cs.uoregon.edu/research/summerschool/summer25/topics.php",
+        "domain": "cs.uoregon.edu",
+        "author": "soareschen",
+        "upvotes": 19,
+        "commentCount": 3,
+        "tags": [
+            "video",
+            "education",
+            "formalmethods",
+            "plt"
+        ],
+        "submittedTime": "2025-07-09 06:29:05-0500"
+    }
+]
