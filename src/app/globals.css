@@ -94,6 +94,12 @@ body {
   border-color: #666666;
 }
 
+.prose pre,
+.prose code {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+}
+
 .comment-form-button {
   background-color: #202020;
   color: #aeaeae;

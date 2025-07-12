@@ -34,7 +34,7 @@ export default function CommentList({ postId, comments: propComments }: { postId
     const commentTree = buildCommentTree(fetchedComments);
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 max-w-4xl mx-auto">
             {commentTree.map((comment) => (
                 <CommentItem key={comment._id} comment={comment} />
             ))}

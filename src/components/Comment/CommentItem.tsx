@@ -89,7 +89,7 @@ export default function CommentItem({ comment }: { comment: CommentWithChildren;
                 </div>
                 {!isCollapsed && (
                     <div className="mt-1">
-                        <div ref={contentRef} className="text-md comment prose prose-invert" />
+                        <div ref={contentRef} className="text-md comment prose prose-invert max-w-4xl" />
                         {isReplying && (
                             <div className="mt-2">
                                 <CommentForm
